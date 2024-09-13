@@ -1,0 +1,7 @@
+This problem requires O(n) time and O(1) Space. This requires an algorithm named 
+Moore's Voting Algorithm. Mark the first element and have a count. Everytime you encounter the same element increase the count 
+else decrease the count
+if the count reaches 0, change the marked element to the current element and change the count back to 1
+this problem guarantees a majority element appearing floor(n/2) but if it did not then we would
+loop through the entire list again checking if the final marked element of the algorithm 
+appeared floor(n/2) times.
