@@ -1,0 +1,3 @@
+keep track of minimum price and update the minimum price as you traverse the list of prices
+keep track of each profit with each price and if its larger than the maxprofit update it
+return
