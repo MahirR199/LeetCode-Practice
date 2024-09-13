@@ -1,0 +1,5 @@
+Kind of like remove element but this time the 2 pointers will start either adjaecent or right on top of each other
+if the element at the first pointer is equal to the element at 2nd pointer then increment the 2nd pointer
+else increment the first pointer and make it equal to the value at the 2nd pointer then increment the 2nd pointer and increment k(unique number of elems)
+make all of this under the condition the 2nd pointer is less than the length of the input list
+make k = 1 from beginning and return 0 if list is empty

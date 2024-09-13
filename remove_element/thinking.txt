@@ -1,1 +1,7 @@
-Create 2 pointers, 1 point to start and 1 point to the end. The key to this problem is that the order of the nums does not matter after you do your function. Compare the values to the value that is to be removed, if they are same replace element in front with last element and last element with the val then decrease 2nd pointer. If the num at first pointer does not equal to val, increase k by 1 and increase the first pointer by 1. Keep all of this under the condition that the first pointer is less than or equal.
+Create 2 pointers, 1 point to start and 1 point to the end. 
+The key to this problem is that the order of the nums does not matter after you do your 
+function. Compare the values to the value that is to be removed, 
+if they are same replace element in front with last element and last element with the val 
+then decrease 2nd pointer. If the num at first pointer does not equal to val, 
+increase k by 1 and increase the first pointer by 1. 
+Keep all of this under the condition that the first pointer is less than or equal.
