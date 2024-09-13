@@ -1,0 +1,3 @@
+When I first attempted this problem I would try to thinking of sorting from least to greatest starting from the beginning of both lists. The easier way to do it is from the back and allows you to put the numbers into empty spots without worrying about holding a temp value. 
+Space taken is O(1)
+Time taken is O(m+n)
